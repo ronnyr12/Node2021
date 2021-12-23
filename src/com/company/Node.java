@@ -18,6 +18,7 @@ public class Node<T> {
 
     //return true if there is a next node
     public boolean hasNext() {
+
         return this.next != null;
     }
     public T getValue() {
@@ -26,16 +27,19 @@ public class Node<T> {
 
 
     public void setValue(T value) {
+
         this.value = value;
     }
 
 
     public Node<T> getNext() {
+
         return next;
     }
 
 
     public void setNext(Node<T> next) {
+
         this.next = next;
     }
 
